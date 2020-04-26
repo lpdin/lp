@@ -295,12 +295,7 @@ align-items: flex-start !important;}
     background-color: transparent;
     padding-top: 0;box-shadow:none
 ">
-<center>
-
-<h4>Esta oferta termina em:</h4><br>
-
-               <div id="clock"><div><span>01</span><p>dias</p></div><div><span>09</span><p>horas</p></div><div><span>22</span><p>minutos</p></div><div><span>19</span><p>segundos</p></div></div>
-        </center>       
+     
                 
               </div>
 			  </div>
@@ -338,12 +333,7 @@ align-items: flex-start !important;}
     background-color: transparent;
     padding-top: 0;box-shadow:none
 ">
-<center>
 
-<h4>Esta oferta termina em:</h4><br>
-
-               <div id="clock" class="clock2"><div><span>01</span><p>dias</p></div><div><span>09</span><p>horas</p></div><div><span>22</span><p>minutos</p></div><div><span>19</span><p>segundos</p></div></div>
-        </center>  
 <br>		
                 
               </div>
@@ -976,28 +966,6 @@ $(window).scroll(function() {
 			});</script>
  <script type="text/javascript">
 
-  // countdown plungin init
-  $('#clock').countdown(now.getFullYear() + "/" + (now.getMonth() + 1) + "/" + now.getDate() + " " + now.getHours() + ":" + (now.getMinutes() + 30 ) + ":" + now.getSeconds(), function(event) {
-    $(this).html(event.strftime(''
-      +'<div><span>%D</span><p>dias</p></div>'
-      +'<div><span>%H</span><p>horas</p></div>'
-      +'<div><span>%M</span><p>minutos</p></div>'
-      +'<div><span>%S</span><p>segundos</p></div>'));
-  });
-  </script>
-  
-  
-    <script type="text/javascript">
-
-  // countdown plungin init
-  $('.clock2').countdown(now.getFullYear() + "/" + (now.getMonth() + 1) + "/" + now.getDate() + " " + now.getHours() + ":" + (now.getMinutes() + 30 ) + ":" + now.getSeconds(), function(event) {
-    $(this).html(event.strftime(''
-      +'<div><span>%D</span><p>dias</p></div>'
-      +'<div><span>%H</span><p>horas</p></div>'
-      +'<div><span>%M</span><p>minutos</p></div>'
-      +'<div><span>%S</span><p>segundos</p></div>'));
-  });
-  </script>
   
   
 
